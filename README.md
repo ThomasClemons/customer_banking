@@ -22,7 +22,7 @@ The class was given starter code that establishes the Account class and other fu
 ### Executing program
 
 - Run program '**customer_banking.py**' from your cloned repo folder using terminal
-- Follow the prompts to provide account balance, interest rate, and maturity period.
+- Follow the prompts to provide account balance, interest rate, and interest period.
 
 1. Enter Savings Account Starting Balance
 
@@ -37,7 +37,7 @@ The class was given starter code that establishes the Account class and other fu
 <pre>Please enter the savings account interest rate: 5
 </pre>
 
-3. Enter Savings Account Maturity Period
+3. Enter Savings Account Interest Period
 
 **Example entering 12 months**
 
@@ -46,7 +46,7 @@ The class was given starter code that establishes the Account class and other fu
 
 4. Next Savings Account details are displayed based on user input provided.
 
-**Example output based on above entries:**
+**Example Savings Account output based on above entries:**
 
 <pre>Savings Account Balance is: $1,050.00
 
@@ -66,7 +66,7 @@ Savings Account Interest Earned over 12 months is: $50.00
 <pre>Please enter the CD account interest rate: 5
 </pre>
 
-7. Enter CD Account Maturity Period
+7. Enter CD Account Interest Period
 
 **Example entering 12 months**
 
@@ -75,7 +75,7 @@ Savings Account Interest Earned over 12 months is: $50.00
 
 8. Next CD Account details are displayed based on user input provided.
 
-**Example output based on above entries:**
+**Example CD Account output based on above entries:**
 
 <pre>CD Account Balance is: $1,050.00
 
@@ -85,7 +85,7 @@ CD Account Interest Earned over 12 months is: $50.00
 ## Help
 
 - Balance and Interest Rate are float data type
-- Months is an integer data type
+- Interest Period (months) is an integer data type
 - There is no error checking of user inputs, so invalid entries will cause the program to crash
 - Program runs through Savings Account followed by CD Account then terminates
 
